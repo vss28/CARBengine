@@ -2,7 +2,7 @@
 
 > An integrated IoT and AI-powered platform for campus electricity monitoring, carbon emission estimation, energy analytics, forecasting, and sustainability management.
 
-![CARBengine Dashboard](docs/screenshots/main-dashboard.png)
+![CARBengine Dashboard](docs/screenshots/main-dashboard.jpg)
 
 <p align="center">
   <b>Monitor · Predict · Analyse · Sustain</b>
@@ -50,7 +50,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Compare estimated emissions between different transport modes.
 - Calculate indicative emissions per trip and according to travel frequency.
 
-![Know Your Carbon](docs/screenshots/know-your-carbon.png)
+![Know Your Carbon](docs/screenshots/know-your-carbon.jpg)
 
 #### 2. Live Monitoring
 
@@ -64,7 +64,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Five-second polling fallback.
 - Reading freshness and connectivity indicators.
 
-![Live Monitoring](docs/screenshots/live-monitoring.png)
+![Live Monitoring](docs/screenshots/live-monitoring.jpg)
 
 #### 3. Energy & Carbon Analytics
 
@@ -76,7 +76,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Five-minute-ahead power prediction using the River online learning model.
 - Historical readings and analytical visualizations.
 
-![Energy and Carbon Analytics](docs/screenshots/energy-carbon-analytics.png)
+![Energy and Carbon Analytics](docs/screenshots/energy-carbon-analytics.jpg)
 
 #### 4. Bill History & Forecast
 
@@ -90,7 +90,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Nominal 95% model-based prediction intervals.
 - Comparison of historical records and forecasted values.
 
-![Bill History and Forecast](docs/screenshots/bill-forecast.png)
+![Bill History and Forecast](docs/screenshots/bill-forecast.jpg)
 
 #### 5. Cost & Green Tax
 
@@ -100,7 +100,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Energy expenditure analysis.
 - Estimated cost calculations for selected periods.
 
-![Cost and Green Tax](docs/screenshots/cost-green-tax.png)
+![Cost and Green Tax](docs/screenshots/cost-green-tax.jpg)
 
 #### 6. Campus Anomaly Monitor
 
@@ -111,7 +111,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Visual power display thresholds.
 - Campus monitoring interface.
 
-![Campus Anomaly Monitor](docs/screenshots/anomaly-monitor.png)
+![Campus Anomaly Monitor](docs/screenshots/anomaly-monitor.jpg)
 
 *Note: The current implementation uses connectivity and display thresholds. It is not a trained statistical anomaly-detection model.*
 
@@ -124,7 +124,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Estimated carbon reduction scenarios.
 - Indicative cost-saving calculations.
 
-![Carbon Reduction Goals](docs/screenshots/carbon-goals.png)
+![Carbon Reduction Goals](docs/screenshots/carbon-goals.jpg)
 
 *Note: Projected reductions are planning scenarios, not independently measured energy or emission savings.*
 
@@ -138,7 +138,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Search and filtering.
 - CSV export functionality.
 
-![Campus Sustainability Audit](docs/screenshots/campus-audit.png)
+![Campus Sustainability Audit](docs/screenshots/campus-audit.jpg)
 
 *Note: The current prototype stores audit records in browser localStorage. These are user-entered records and are not independently verified.*
 
@@ -151,7 +151,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Connectivity status.
 - Data freshness monitoring.
 
-![Device Management](docs/screenshots/device-management.png)
+![Device Management](docs/screenshots/device-management.jpg)
 
 ### B. Administration Modules
 
@@ -165,7 +165,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 - Protected account deletion.
 - Supabase authentication integration.
 
-![User Management](docs/screenshots/user-management.png)
+![User Management](docs/screenshots/user-management.jpg)
 
 #### 11. Tab Permissions
 
@@ -179,7 +179,7 @@ CARBengine currently contains **11 functional dashboard modules**, organized int
 
 Administrators can manage which dashboard modules are accessible to different user roles.
 
-![Tab Permissions](docs/screenshots/tab-permissions.png)
+![Tab Permissions](docs/screenshots/tab-permissions.jpg)
 
 ---
 
@@ -420,7 +420,7 @@ The hardware monitoring setup is based on the ESP32 controller and PZEM-004T ene
 
 The circuit diagram illustrates the electrical connections between the ESP32 controller, PZEM-004T energy meter, current transformer (CT), and the monitored electrical load.
 
-![CARBengine Circuit Diagram](docs/screenshots/circuit-diagram.png)
+![CARBengine Circuit Diagram](docs/screenshots/circuit-diagram.jpg)
 
 ### PCB Design
 
@@ -428,7 +428,7 @@ A custom PCB layout was prepared using EasyEDA as part of the hardware design.
 
 The hardware implementation is intended to connect electrical measurement components with the networked monitoring system.
 
-![Hardware Implementation](docs/screenshots/hardware-setup.png)
+![Hardware Implementation](docs/screenshots/hardware-setup.jpg)
 
 ---
 
@@ -436,7 +436,7 @@ The hardware implementation is intended to connect electrical measurement compon
 
 CARBengine also includes a mobile application as a companion interface to the project.
 
-![CARBengine Mobile Application](docs/screenshots/mobile-app.png)
+![CARBengine Mobile Application](docs/screenshots/mobile-app.jpg)
 
 ---
 
@@ -481,21 +481,21 @@ CARBengine/
 │
 ├── docs/
 │   └── screenshots/
-│       ├── main-dashboard.png
-│       ├── know-your-carbon.png
-│       ├── live-monitoring.png
-│       ├── energy-carbon-analytics.png
-│       ├── bill-forecast.png
-│       ├── cost-green-tax.png
-│       ├── anomaly-monitor.png
-│       ├── carbon-goals.png
-│       ├── campus-audit.png
-│       ├── device-management.png
-│       ├── user-management.png
-│       ├── tab-permissions.png
-│       ├── hardware-setup.png
-│       ├── circuit-diagram.png
-│       └── mobile-app.png
+│       ├── main-dashboard.jpg
+│       ├── know-your-carbon.jpg
+│       ├── live-monitoring.jpg
+│       ├── energy-carbon-analytics.jpg
+│       ├── bill-forecast.jpg
+│       ├── cost-green-tax.jpg
+│       ├── anomaly-monitor.jpg
+│       ├── carbon-goals.jpg
+│       ├── campus-audit.jpg
+│       ├── device-management.jpg
+│       ├── user-management.jpg
+│       ├── tab-permissions.jpg
+│       ├── hardware-setup.jpg
+│       ├── circuit-diagram.jpg
+│       └── mobile-app.jpg
 │
 ├── scripts/
 │   └── start-local.ps1
