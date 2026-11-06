@@ -1,0 +1,15 @@
+.admin-user-filters{display:grid;grid-template-columns:minmax(220px,1fr) minmax(180px,.48fr);gap:10px;margin:0 0 12px}
+.admin-search{display:flex;align-items:center;gap:9px;min-width:0;height:36px;padding:0 10px;border:1px solid #e1e9e3;border-radius:7px;background:#fff;color:#7c8b81}
+.admin-search svg{width:15px;height:15px;flex:none}
+.admin-search input{width:100%;min-width:0;height:auto;max-width:none;padding:0;border:0;outline:0;background:transparent;color:#41564a;font-size:10px}
+.admin-search input::placeholder{color:#9aa59d}
+.admin-department-filter{display:flex;align-items:center;justify-content:space-between;gap:10px;min-width:0;height:36px;padding:0 10px;border:1px solid #e1e9e3;border-radius:7px;background:#fff;color:#77867c;font-size:9px}
+.admin-department-filter select{width:auto;min-width:110px;max-width:190px;height:28px;padding:0 6px;border:0;outline:0;background:transparent;color:#41564a;font-size:10px}
+.admin-user-table{min-width:760px}
+.admin-department-editor{display:grid;gap:5px;max-width:190px}
+.admin-department-editor select,.admin-department-editor input{width:100%;max-width:none}
+.admin-delete-account{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:29px;padding:0 9px;border:1px solid #f0d6d2;border-radius:6px;background:#fff8f7;color:#a44c42;font-size:9px;font-weight:650;cursor:pointer}
+.admin-delete-account svg{width:13px;height:13px}
+.admin-delete-account:hover:not(:disabled){border-color:#e9b6b0;background:#fff0ee;color:#8e342a}
+.admin-delete-account:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:720px){.admin-user-filters{grid-template-columns:1fr}.admin-department-filter select{flex:1}}

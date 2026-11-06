@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.local
+.env.production
+
+# Vercel
+.vercel/
+
+# Backend ML models (too large for git)
+backend/models/
+
+# Backend logs
+backend/*.log
+backend/uvicorn.local.*.log
+
+# Raw data (use .gitkeep to preserve folder)
+data/bills/raw/*
+!data/bills/raw/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Antigravity / Gemini
+.gemini/

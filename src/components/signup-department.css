@@ -1,0 +1,2 @@
+.auth-form select{height:40px;width:100%;padding:0 11px;border:1px solid #dfe8e1;border-radius:8px;background:#fbfdfb;color:#20382b;font:inherit;font-size:12px;outline:none}
+.auth-form select:focus{border-color:#52a97d;box-shadow:0 0 0 3px #52a97d20}
