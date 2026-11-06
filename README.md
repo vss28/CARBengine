@@ -54,57 +54,26 @@ PZEM-004T  →  ESP32  →  Supabase PostgreSQL
 ```text
 CARBengine/
 ├── src/
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── app.css
-│   ├── anomaly.css
-│   ├── components/
-│   │   ├── AuthProvider.tsx
-│   │   ├── AdminAccessPanels.tsx
-│   │   └── BillForecastPanel.tsx
-│   └── lib/
-│       ├── supabase.ts
-│       ├── readings.ts
-│       ├── forecast.ts
-│       └── billForecast.ts
 ├── backend/
-│   ├── app.py
-│   ├── bill_forecast.py
-│   ├── model_store.py
-│   └── requirements.txt
 ├── supabase/
-│   ├── role_access_setup.sql
-│   └── enable_self_signup.sql
 ├── data/
-│   └── bills/
 ├── public/
-│   └── maps/
 ├── docs/
-│   └── screenshots/
-│       ├── overview/
-│       │   └── main-dashboard.png
-│       ├── monitoring/
-│       │   ├── live-monitoring.png
-│       │   └── anomaly-monitor.png
-│       ├── analytics/
-│       │   ├── energy-carbon-analytics.png
-│       │   ├── electricity-forecast.png
-│       │   └── bill-forecast.png
-│       ├── sustainability/
-│       │   ├── travel-calculator.png
-│       │   └── cost-green-tax.png
-│       └── implementation/
-│           ├── hardware-setup.png
-│           ├── mobile-app.png
-│           └── admin-panel.png
-├── scripts/
-│   └── start-local.ps1
+├── screenshots/
+│   ├── main-dashboard.png
+│   ├── live-monitoring.png
+│   ├── anomaly-monitor.png
+│   ├── energy-carbon-analytics.png
+│   ├── electricity-forecast.png
+│   ├── bill-forecast.png
+│   ├── travel-calculator.png
+│   ├── cost-green-tax.png
+│   ├── hardware-setup.png
+│   ├── mobile-app.png
+│   └── admin-panel.png
 ├── .env.example
-├── backend/.env.example
-├── vercel.json
-├── vite.config.ts
-├── tsconfig.json
-└── package.json
+├── package.json
+└── README.md
 ```
 
 ---
