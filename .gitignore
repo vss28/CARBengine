@@ -35,5 +35,11 @@ data/bills/raw/*
 Thumbs.db
 .DS_Store
 
+# Paper / docs drafts (local only)
+_techpaper_work/
+*.docx
+Chapter_5_Results_and_Discussion_Revised.md
+README_overall.md
+
 # Antigravity / Gemini
 .gemini/

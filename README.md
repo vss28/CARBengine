@@ -3,7 +3,7 @@
 > Real-time electricity monitoring, carbon emission tracking, and bill forecasting for campus infrastructure — powered by ESP32 sensors and Supabase.
 
 <!-- Add your screenshots here — see "Screenshots" section below -->
-![Dashboard Preview](docs/screenshots/live-monitoring.png)
+<!-- ![Dashboard Preview](docs/screenshots/live-monitoring.png) -->
 
 ---
 
