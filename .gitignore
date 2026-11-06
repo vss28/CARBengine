@@ -35,6 +35,15 @@ data/bills/raw/*
 Thumbs.db
 .DS_Store
 
+# Unused architectural reference images
+public/maps/campus-concrete-warp-detail.jpg
+public/maps/campus-front-elevation.jpg
+public/maps/campus-internal-elevations.jpg
+public/maps/campus-floor-plan.jpg
+
+# One-off utility scripts
+backend/extend_bill_dataset.py
+
 # Paper / docs drafts (local only)
 _techpaper_work/
 *.docx
